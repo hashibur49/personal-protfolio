@@ -1,0 +1,50 @@
+
+/* Google Font */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 40px;
+}
+
+
+/* Header Area Design Start Here */
+.header{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;  
+    display: flex;
+    background-size: cover;
+}
+
+
+.header-area{
+    width: 50%;
+    padding-left: 8%;   
+}
+
+.header-img-area{
+    width: 40%;
+    padding-left: 8%;
+    align-items: flex-end;
+}
+
+.header-img-area img{
+    width: 80%;
+    padding-top: 5%;
+    padding-left: 10%;   
+}
+
+.header-btn{
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    border-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+/* Header Area Design End Here */
